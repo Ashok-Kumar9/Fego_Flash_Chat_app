@@ -1,0 +1,29 @@
+name: fego_chat
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.1
+  firebase_core: ^1.3.0
+  firebase_auth: ^1.4.1
+  cloud_firestore: ^2.2.2
+  loading_overlay: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
